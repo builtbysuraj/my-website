@@ -1,0 +1,29 @@
+.navigation {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 0.5rem;
+  border-bottom-left-radius: 2.5rem;
+  height: 12rem;
+}
+
+.nav_brand {
+  font-size: 3.1rem;
+  margin: 1rem 0 0 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav a {
+  color: var(--text-color);
+}
+
+.list_non_bullet {
+  text-align: right;
+}
+
+.list_item_inline {
+  padding: 0.9rem 1.3rem;
+  border-radius: 2rem;
+  width: 95px;
+  display: inline-block;
+}

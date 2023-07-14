@@ -1,0 +1,20 @@
+.hero {
+  padding: 2rem;
+}
+
+img {
+  max-width: 70%;
+  margin: auto;
+  display: block;
+  padding: 1.5rem;
+}
+
+.hero .hero_heading {
+  color: var(--dark-grey);
+  text-align: center;
+  font-size: 4rem;
+}
+
+.inline_heading {
+  color: var(--primary-color);
+}

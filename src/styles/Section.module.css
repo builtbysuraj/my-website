@@ -1,0 +1,90 @@
+section {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.ow {
+  background: var(--off-white);
+}
+
+.section {
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+}
+
+.container_center {
+  max-width: 80rem;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.connection {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.list_non_bullet {
+  text-align: right;
+}
+
+.list_item_inline {
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: var(--primary-color);
+  width: 110px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.link {
+  padding: 1rem 1rem;
+  margin: 1rem;
+  font-size: 1.7rem;
+}
+
+.active_link {
+  font-weight: bold;
+}
+
+.social_links li {
+  padding: 0.5rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.link_secondary {
+  color: var(--text-color);
+}
+
+.link_secondary a {
+  padding: 1rem;
+}
+
+.link_secondary .link_primary {
+  padding: 0.9rem 1.3rem;
+  margin: 1rem;
+}
+
+.project_para {
+  margin-bottom: 2rem;
+}
+
+.section_link {
+  padding: 0.7rem 1.5rem;
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  margin: 1rem;
+  color: var(--text-color);
+  border-radius: 2rem;
+}

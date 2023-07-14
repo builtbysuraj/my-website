@@ -1,0 +1,89 @@
+/***** CSS Reset *****/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.7rem;
+}
+
+:root {
+  --primary-color: #1a2e44;
+  --dark-grey: #6b7280;
+  --off-white: #eceeef;
+  --text-color: #f2f2f2;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.1ch;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/*
+Blue: #0077be
+Green: #00a86b
+Purple: #9370db
+Orange: #ff6600
+Red: #dc143c
+Navy Blue: #1a2e44
+Maroon: #800000
+Charcoal: #36454f
+ */
