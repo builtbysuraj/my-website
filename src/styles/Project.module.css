@@ -1,0 +1,39 @@
+.class_marks {
+  color: var(--dark-grey);
+}
+
+.class_title {
+  color: var(--primary-color);
+}
+
+.padding_md {
+  padding: 2rem;
+}
+
+.padding_sm {
+  padding: 2rem 0;
+}
+.project_btn {
+  margin-top: 1.4rem;
+}
+
+.live {
+  color: var(--text-color);
+  padding: 0.7rem 1.2rem;
+  border-radius: 2rem;
+  background-color: var(--primary-color);
+  width: 120px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.source {
+  color: var(--text-color);
+  padding: 0.7rem 1.2rem;
+  border-radius: 2rem;
+  background-color: var(--primary-color);
+  width: 126px;
+  display: inline-block;
+  cursor: pointer;
+}
