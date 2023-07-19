@@ -1,26 +1,24 @@
 import project from "../styles/Project.module.css"
 import section from "../styles/Section.module.css"
 
-export default function SingleProject() {
+export default function SingleProject({ data }) {
+  const { id, title, date, desc, live, source } = data
   return (
     <li>
       <div
         className={`${section.container} ${section.container_center} ${project.padding_md}`}
       >
         <h1>
-          <span className={project.class_marks}>Mark-1:</span>
-          <span className={project.class_title}> Do you know me Quiz?</span>
+          <span className={project.class_marks}>Mark-{id}:</span>
+          <span className={project.class_title}> {title}</span>
         </h1>
-        <small>September 2021</small>
-        <p>
-          A CLI app built with NodeJs. It consists of 15 questions related to medivided into 3 levels.A CLI app built with NodeJs. It consists of 15 questions related to me
-          divided into 3 levels.
-        </p>
+        <small>{date}</small>
+        <p>{desc}</p>
         <div className={project.project_btn}>
-          <a className={project.live} href="#">
+          <a className={project.live} href={live}>
             Live Project
           </a>
-          <a className={project.source} href="#">
+          <a className={project.source} href={source}>
             View Source
           </a>
         </div>

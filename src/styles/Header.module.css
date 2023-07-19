@@ -3,7 +3,8 @@
 }
 
 img {
-  max-width: 70%;
+  max-width: 80%;
+  max-height: 50rem;
   margin: auto;
   display: block;
   padding: 1.5rem;
