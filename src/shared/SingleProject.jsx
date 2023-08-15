@@ -15,10 +15,10 @@ export default function SingleProject({ data }) {
         <small>{date}</small>
         <p>{desc}</p>
         <div className={project.project_btn}>
-          <a className={project.live} href={live}>
+          <a className={project.live} href={live} target="_blank">
             Live Project
           </a>
-          <a className={project.source} href={source}>
+          <a className={project.source} href={source} target="_blank">
             View Source
           </a>
         </div>
