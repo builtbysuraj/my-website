@@ -10,7 +10,7 @@ export default function ConnectionLink() {
         <li className={styles.list_item_inline}>
           <a
             className={styles.link_secondary}
-            href="https://drive.google.com/file/d/1PIPfbfqFqTsdV1EJmxwISqeQa32hnNK2/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1WAPem733sJCOtduleF-J3k04IiRUPJTN/view"
             target="_blank"
           >
             Resume
