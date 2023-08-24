@@ -36,7 +36,7 @@ export default function ConnectionLink() {
         <li className={styles.list_item_inline}>
           <a
             className={styles.link_secondary}
-            href="https://www.linkedin.com/builtbysuraj"
+            href="https://www.linkedin.com/in/builtbysuraj"
             target="_blank"
           >
             LinkedIn
